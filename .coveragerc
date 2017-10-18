@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/tech_tutorials
+   */site-packages/tech_tutorials
+
+[run]
+branch = true
+source =
+    tech_tutorials
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
